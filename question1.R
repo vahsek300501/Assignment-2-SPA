@@ -38,3 +38,8 @@ hist(ten_trials_binom,main = "histogram of size = 10", xlab = "number of arrival
 hist(fifty_trials_binom,main = "histogram of size = 50", xlab = "number of arrivals", ylab = "frequency", col = "darkgreen")
 hist(hundred_trials_binom,main = "histogram of size = 100", xlab = "number of arrivals", ylab = "frequency", col = "purple")
 hist(five_hundred_trials_binom,main = "histogram of size = 500", xlab = "number of arrivals", ylab = "frequency", col = "red")
+
+mean(ten_trials_binom)
+mean(fifty_trials_binom)
+mean(hundred_trials_binom)
+mean(five_hundred_trials_binom)
